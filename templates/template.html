@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{data}}
+
+    <h2>Main Categories</h2>
+    {%for category in main_categories%}
+    <img src="{{category.image}}" style = "width:100px">
+    Name : {{category.category_name}} <br>
+    {%endfor%}
+
+</body>
+</html>
